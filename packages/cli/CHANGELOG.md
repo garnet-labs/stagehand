@@ -1,5 +1,15 @@
 # @browserbasehq/browse-cli
 
+## 0.6.0
+
+### Minor Changes
+
+- [#1935](https://github.com/browserbase/stagehand/pull/1935) [`666baf1`](https://github.com/browserbase/stagehand/commit/666baf1df966b598efd89402563350319ca1aa36) Thanks [@shrey150](https://github.com/shrey150)! - Add global flags for commonly used Browserbase session parameters (--proxies, --advanced-stealth, --solve-captchas, --region, --keep-alive, --session-timeout, --block-ads). These flags configure the Browserbase session in remote mode.
+
+### Patch Changes
+
+- [#1906](https://github.com/browserbase/stagehand/pull/1906) [`34598b9`](https://github.com/browserbase/stagehand/commit/34598b936f62657b8bdfd2a705eb09451089a7bc) Thanks [@derekmeegan](https://github.com/derekmeegan)! - Add `browse upload <selector> <files...>` command for uploading files to `<input type="file">` elements. Supports single and multiple file uploads, works with both local and remote Browserbase sessions.
+
 ## 0.5.0
 
 ### Minor Changes
